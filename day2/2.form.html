@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Xây dựng form đăng ký tài khoản với yêu cầu
+     Có đầy đủ các trường thông tin: username, email, password, confirm-passward, giới tính, nghề nhiệp(đi làm, sinh viên, khác), câu hỏi khác nếu có?, nút bấm"đăngký" -->
+
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+        <div>
+            <label for="username">Tài khoản</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+
+        <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="confirm-passward">Nhập lại mật khẩu</label>
+            <input type="password" name="confirm-password" id="confirm-passward" required>
+        </div>
+
+        <div>
+            <label>Giới tính</label>
+            <label>
+                <input type="radio" name="sex" id="male" value="male"> Nam
+            </label>
+            <label>
+                <input type="radio" name="sex" id="female" value="female"> Nữ
+            </label>
+            <label>
+                <input type="radio" name="sex" id="other" value="other"> Khác
+            </label>
+        </div>
+
+        <div>
+            <label>Nghề nghiệp</label>
+            <label>
+                <input type="radio" name="job" id="work" value="work">Đi làm
+            </label>
+            <label>
+                <input type="radio" name="job" id="student" value="student">Sinh viên
+            </label>
+            <label>
+                <input type="radio" name="job" id="other" value="other">Khác
+            </label>
+        </div>
+
+        <div>
+            <label for="question">Câu hỏi khác nếu có?</label>
+            <textarea name="question" id="question" cols="10" rows="10"></textarea>
+        </div>
+
+        <div>
+            <button>Đăng ký</button>
+        </div>
+
+        <!-- khi sử dụng -->
+    </form>
+
+</body>
+
+</html>

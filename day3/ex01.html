@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="ex01.css">
+    <style>
+        h2 {
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        div>p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: yellow; color: rebeccapurple;">Css = cascading style sheet</h1>
+    <h2>các cách đưa css vào website</h2>
+    <ol>
+        <li>c1: inline - viết vào thuộc tính style trong thẻ mở của html</li>
+        <li>c2: internal - viết trong cặp thẻ style ở phần head</li>
+        <li>c3: external - viết vào file.css và nhúng vào tài liệu html thông qua thẻ link:css</li>
+    </ol>
+
+    <div>
+        <p style="color: green;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, beatae.
+        </p>
+    </div>
+
+    <h2>Độ ưu tiên 3 cách viết css</h2>
+    <ol>
+        <li>inline có độ ưu tiên cao nhất, internal và external có độ ưu tiên ngang nhau, giá trị viết sau đc xếp chồng
+            lên giá trị viết trc</li>
+    </ol>
+
+    <section>
+        <div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, numquam.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d8dae2;
+}
+
+.content {
+  width: 1563px;
+  height: 777px;
+}
+
+.collection {
+  padding: 62px;
+}
+
+.photo-collection {
+  display: inline-block;
+  padding: 24px;
+}

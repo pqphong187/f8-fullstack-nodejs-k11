@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+  padding: 50px;
+  border: 10px solid red;
+}
+
+.box-2 {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+  padding: 50px;
+  border: 10px solid red;
+}
+
+/* 
+box-sizing: content-box: kích thước thật sự của phần tử (khối hộp) chiếm chỗ đc tính như sau: 
+width: width(content) + padding-left + padding-right + border-left + border-right
+height: height(content) + padding-top + padding-bot + border-top + border-bot
+*/

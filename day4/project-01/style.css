@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3f8fe;
+}
+.user-card {
+  border-radius: 25px;
+  background: #fff;
+  margin: auto;
+  width: 562px;
+  height: 607px;
+  padding: 50px;
+}
+
+.avatar,
+.content {
+  display: inline-block;
+}
+
+.avatar {
+  vertical-align: top;
+}
+
+.content {
+  width: 330px;
+  /* margin-left: 16px; */
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.preview-desc {
+  vertical-align: super;
+}
+
+button {
+  border-radius: 4px;
+  border: 2px solid #c4cadf;
+}

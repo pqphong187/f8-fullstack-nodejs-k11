@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .box-parent {
+            background-color: chocolate;
+            width: 200px;
+            height: 400px;
+            border: 5px solid blue;
+        }
+
+        .box-item {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+
+        .box-1 {
+            border-width: 2px;
+            border-style: dotted;
+            border-color: red;
+        }
+
+        .box-2 {
+            border-top: 6px solid yellow;
+            border-bottom: 6px solid transparent;
+            border-left: 6px solid orange;
+            border-right: 6px solid purple;
+        }
+
+        .box-3 {
+            border-top-width: 6px;
+            border-top-style: solid;
+            border-top-color: green;
+            border-bottom-width: 6px;
+            border-bottom-style: dotted;
+            border-bottom-color: red;
+            border-left-width: 6px;
+            border-left-style: solid;
+            border-left-color: blue;
+            border-right-width: 6px;
+            border-right-style: double;
+            border-right-color: purple;
+        }
+
+        .triangle-1 {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 80px solid pink;
+        }
+
+        .triangle-2 {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 80px solid pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-parent">
+        <div class="box-item box-1"></div>
+        <div class="box-item box-2"></div>
+        <div class="box-item box-3"></div>
+    </div>
+
+    <div class="triangle-1">
+    </div>
+    <div class="triangle-2">
+    </div>
+</body>
+
+</html>

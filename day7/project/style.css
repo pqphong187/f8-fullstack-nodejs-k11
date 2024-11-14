@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 36px 135px 65px;
+}

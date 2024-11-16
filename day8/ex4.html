@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .box {
+            position: static;
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+            padding: 20px;
+            margin: 10px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 200px;
+            font-size: 24px;
+            color: white;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .box-1 {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+
+    <ol>
+        <li>
+            position: relative vẫn đặt phtu ở trên dòng chảy tự nhiên của tài liệu, 
+            tuy nhiên có thể điều chỉnh vị trí của phtu bằng các thuộc tính top, bottom, right, left
+        </li>
+        <li>
+            position nhận giá trị khác static (default) thì sẽ có thể nằm đè lên phtu position static
+        </li>
+
+        <li>
+            
+        </li>
+    </ol>
+</body>
+
+</html>

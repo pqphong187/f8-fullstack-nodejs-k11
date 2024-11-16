@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .parent {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: yellowgreen;
+        }
+
+        .sale-value {
+            position: absolute;
+            padding: 10px;
+            background-color: yellow;
+            right: 0;
+            top: 0px;
+        }
+
+        .sale-info {
+            position: absolute;
+            padding: 10px;
+            background-color: red;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <span class="sale-value">-33%</span>
+        <div class="sale-info">
+            <span>15.11</span>
+        </div>
+    </div>
+</body>
+
+</html>
